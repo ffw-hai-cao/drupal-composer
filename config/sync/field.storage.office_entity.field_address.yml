@@ -1,0 +1,21 @@
+uuid: 0ee85848-f8f6-4085-8f7a-5c79c9012448
+langcode: en
+status: true
+dependencies:
+  module:
+    - ffw_custom
+id: office_entity.field_address
+field_name: field_address
+entity_type: office_entity
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
