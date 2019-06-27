@@ -1,0 +1,16 @@
+version: "2.1"
+services:
+  cli:
+    environment:
+      - TERMINUS_HIDE_UPDATE_MESSAGE=1
+
+ # PHPMyAdmin
+  pma:
+    hostname: pma
+    image: phpmyadmin/phpmyadmin
+    environment:
+      - PMA_HOST=db
+      - PMA_USER=root
+      - PMA_PASSWORD=${MYSQL_ROOT_PASSWORD:-root}
+    labels:
+      - io.docksal.virtual-host=pma.${VIRTUAL_HOST}
