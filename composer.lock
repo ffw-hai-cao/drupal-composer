@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa2634c70dc9bd1b9469c61559bdaaff",
+    "content-hash": "1f5d683d969fa4058f72696da523c539",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -204,7 +204,7 @@
             "time": "2019-06-02T07:36:18+00:00"
         },
         {
-            "name": "ckeditor-plugin/codesnippet",
+            "name": "ckeditor/codesnippet",
             "version": "4.11.4",
             "dist": {
                 "type": "zip",
@@ -7618,6 +7618,15 @@
                 "webdriver"
             ],
             "time": "2018-10-10T12:39:06+00:00"
+        },
+        {
+            "name": "ckeditor-plugin/codesnippet",
+            "version": "4.11.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://download.ckeditor.com/codesnippet/releases/codesnippet_4.11.4.zip"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "doctrine/instantiator",
