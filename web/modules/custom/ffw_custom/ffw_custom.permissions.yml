@@ -1,0 +1,30 @@
+add office information entities:
+  title: 'Create new Office information entities'
+
+administer office information entities:
+  title: 'Administer Office information entities'
+  description: 'Allow to access the administration form to configure Office information entities.'
+  restrict access: true
+
+delete office information entities:
+  title: 'Delete Office information entities'
+
+edit office information entities:
+  title: 'Edit Office information entities'
+
+view published office information entities:
+  title: 'View published Office information entities'
+
+view unpublished office information entities:
+  title: 'View unpublished Office information entities'
+
+view all office information revisions:
+  title: 'View all Office information revisions'
+
+revert all office information revisions:
+  title: 'Revert all Office information revisions'
+  description: 'Role requires permission <em>view Office information revisions</em> and <em>edit rights</em> for office information entities in question or <em>administer office information entities</em>.'
+
+delete all office information revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Office information revisions</em> and <em>delete rights</em> for office information entities in question or <em>administer office information entities</em>.'

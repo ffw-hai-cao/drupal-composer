@@ -1,0 +1,5 @@
+name: 'FFW Custom'
+type: module
+description: 'My FFW Custom Module'
+core: 8.x
+package: 'Custom'

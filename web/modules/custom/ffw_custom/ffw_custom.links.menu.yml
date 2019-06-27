@@ -1,0 +1,12 @@
+
+# Office information menu items definition
+entity.office_entity.collection:
+  title: 'Office information'
+  route_name: entity.office_entity.collection
+  description: 'List Office information entities'
+
+office_entity.admin.structure.settings:
+  title: 'Office information settings'
+  description: 'Configure Office information entities'
+  route_name: office_entity.settings
+  parent: system.admin_structure
