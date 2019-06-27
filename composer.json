@@ -86,6 +86,22 @@
                 ".editorconfig": "../.editorconfig",
                 ".gitattributes": "../.gitattributes"
             }
-        }
+        },
+        "enable-patching": true,
+        "patches": {
+            "drupal/paragraphs": {
+                "View any paragraph": "https://www.drupal.org/files/issues/2019-05-22/3056358.patch",
+                "View any paragraph": "https://www.drupal.org/files/issues/2019-03-17/add-description-3040856-2.patch"
+            },
+            "drupal/devel": {
+                "Replace deprecated entity_* calls with proper calls to the entity api": "https://www.drupal.org/files/issues/2019-05-12/3044234-6.patch"
+            },
+            "drupal/rabbit_hole": {
+                "Support for the core media entities": "https://www.drupal.org/files/issues/2019-02-21/rh_media_library_support.patch"
+            },
+            "drupal/coffee": {
+                "Mouse+ctrlKey - Accessibility improvement": "https://www.drupal.org/files/issues/2018-08-23/coffee-accessibility-improvments-1.patch"
+            }
+         }
     }
 }

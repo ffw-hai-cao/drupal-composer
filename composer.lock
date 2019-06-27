@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "95b4e9549f8e51bd857dc0fd455d2686",
+    "content-hash": "cef88f23c0b6e3912cf08038d8b0ea05",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2258,6 +2258,9 @@
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "Mouse+ctrlKey - Accessibility improvement": "https://www.drupal.org/files/issues/2018-08-23/coffee-accessibility-improvments-1.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -2927,6 +2930,9 @@
                     "services": {
                         "drush.services.yml": "^9"
                     }
+                },
+                "patches_applied": {
+                    "Replace deprecated entity_* calls with proper calls to the entity api": "https://www.drupal.org/files/issues/2019-05-12/3044234-6.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -3085,6 +3091,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "View any paragraph": "https://www.drupal.org/files/issues/2019-03-17/add-description-3040856-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -3213,6 +3222,9 @@
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "Support for the core media entities": "https://www.drupal.org/files/issues/2019-02-21/rh_media_library_support.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
