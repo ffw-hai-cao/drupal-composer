@@ -1,0 +1,20 @@
+uuid: 275570e0-ce0b-45f8-98fd-1399f97655db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.office_entity.field_country
+  module:
+    - ffw_custom
+id: office_entity.office_entity.field_country
+field_name: field_country
+entity_type: office_entity
+bundle: office_entity
+label: Country
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
